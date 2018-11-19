@@ -1,6 +1,6 @@
 def my_collect(collection)
   
-  newcollection = []
+ # newcollection = []
   collection.each do |item|
     yield item
     newcollection << item

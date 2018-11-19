@@ -6,6 +6,6 @@ def my_collect(collection)
     newcollection << item
   end
   
-collection
+newcollection
 end
 

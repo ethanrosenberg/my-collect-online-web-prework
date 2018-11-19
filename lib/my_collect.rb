@@ -1,7 +1,10 @@
 def my_collect(collection)
   
   newcollection = []
-  collection.map { |item| yield item }
+  collection.collect do |item|
+    yield item
+    newcollection << item
+  end
   return newcollection
 end
 

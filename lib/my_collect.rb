@@ -7,6 +7,6 @@ def my_collect(collection)
     count +=1
   end
   
-collection
+newcollection
 end
 

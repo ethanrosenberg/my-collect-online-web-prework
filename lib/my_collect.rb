@@ -1,10 +1,12 @@
 def my_collect(collection)
-  
+  count = 0;
   newcollection = []
-  collection.collect do |item|
-    yield item
-    newcollection << item
+  while count < collection.size
+    yield collection[count]
+
+    count +=1
   end
-  return newcollection
+  
+collection
 end
 
